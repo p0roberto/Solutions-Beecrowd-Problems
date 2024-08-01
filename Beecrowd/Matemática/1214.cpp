@@ -10,12 +10,12 @@ int main(){
         cin >> m;
         media = 0;
         cont = 0;
-        for(i = 0;i<m;i++){
+        for(i = 0; i < m; i++){
             cin >> vet[i];
             media = media + vet[i];
         }
         media = media/m;
-        for(i=0;i<m;i++){
+        for(i = 0; i < m; i++){
             if(vet[i] > media){
                 cont++;
             }

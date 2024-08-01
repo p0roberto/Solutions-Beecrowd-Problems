@@ -9,7 +9,7 @@ int main(){
         cin >> a;
         cont = 0;
         raiz = sqrt(a);
-        for(i=2;i<=raiz;i++){
+        for(i = 2; i <= raiz; i++){
             if(a % i == 0){
                 cont = 1;
                 break;
